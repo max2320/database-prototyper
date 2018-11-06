@@ -1,0 +1,38 @@
+[
+  {
+    "table_name": "users",
+    "columns": [
+      {
+        "name": "name",
+        "label": "Nome",
+        "type": "string",
+        "show": {
+          "view": true,
+          "list": true
+        }
+      },{
+        "name": "email",
+        "label": "E-mail",
+        "type": "string",
+        "show": {
+          "view": true,
+          "list": true
+        }
+      }
+    ]
+  },
+  {
+    "table_name": "products",
+    "columns": [
+      {
+        "name": "name",
+        "label": "Nome",
+        "type": "string",
+        "show": {
+          "view": true,
+          "list": true
+        }
+      }
+    ]
+  }
+]
